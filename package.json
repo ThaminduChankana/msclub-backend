@@ -4,7 +4,12 @@
 	"description": "MS Club Web Site Server",
 	"main": "app.js",
 	"scripts": {
+<<<<<<< HEAD
 		"start": "NODE_ENV=Production node build/app.js",
+=======
+		"start": "NODE_ENV=Development node build/app.js",
+		"local:server": "cross-env NODE_ENV=Local nodemon src/app.ts",
+>>>>>>> 34bf3a794bbea0c658bc49862932b0586ba62425
 		"dev:server": "cross-env NODE_ENV=Development nodemon src/app.ts",
 		"prod:server": "cross-env NODE_ENV=Production nodemon src/app.ts",
 		"build": "tsc -p .",
